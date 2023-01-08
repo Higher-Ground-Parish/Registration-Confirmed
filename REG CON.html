@@ -1,0 +1,83 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Higher Ground Parish</title>
+    <link rel="stylesheet" href="Website CON.CSS">
+    <link href="https://fonts.googleapis.com/cssw? family=Poppins:"wght@300;400;500;600;700&display=swap"rel="stylesheet">
+</head>    
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+    <img src="images/04abe1d2b3054b936b771564811d8cd2367201.png">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="file:///C:/Users/user/Untitled-1.html">Home</a></li>
+                    <li><a href="file:///C:/Users/user/Event.html">Event</a></li>
+                    <li><a href="">Message</a></li>
+                    <li><a href="">Online Testimony</a></li>
+                    <li><a href="">Online Giving</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>   
+        
+    </div>
+
+  
+<!------ featured categories------>
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/A New Design - Made with PosterMyWall (2).jpg">
+            </div>
+
+        </div>
+    </div>
+</div>
+<!------ featured categories------>
+    <div class="footer">
+        <div class="container">
+                
+                <div class="row">
+                    <div class="footer-col-1">
+                        <img src="images/RCCG-WEB.png">
+                        <h3>© Copyright RCCG HGP 2023. All Right Reserved. Designed and Developed by RCCG HGP IT DEPARTMENT</h3>
+                    </div>
+            </div>
+        </div>
+    
+<!-----js for toggle menu----->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight="0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px")
+        {
+            MenuItems.style.maxHeight="200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight="0px"
+        }
+    }
+</script>
+</body>
+</html>
